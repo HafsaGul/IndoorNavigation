@@ -1,5 +1,7 @@
 {
   "name": "ins",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

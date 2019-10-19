@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-
+//, enableTracing: true
 const routes: Routes = [
   { path: '', loadChildren: './tabs/tabs.module#TabsPageModule' }
 ];
@@ -10,4 +10,9 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule {
+
+ constructor(){
+    console.log('Module: app-routing.module.ts');
+  }
+}

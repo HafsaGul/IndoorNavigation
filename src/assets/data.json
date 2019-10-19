@@ -1,0 +1,1084 @@
+{
+	"uuid": "FDA50693-A4E2-4FB1-AFCF-C6EB07647825",
+	"distance_unit": "meter",
+	"regions": [
+		{
+			"identifier": "A-Block-1st",
+			"major": 0,
+			"minor": null,
+			"beacons": [
+				{
+					"major": 0,
+					"minor": 0,
+					"x": 110,
+					"y": 53,
+					"z": 0
+				},
+				{
+					"major": 0,
+					"minor": 1,
+					"x": 110,
+					"y": 106,
+					"z": 0
+				},
+				{
+					"major": 0,
+					"minor": 2,
+					"x": 110,
+					"y": 159,
+					"z": 0
+				},
+				{
+					"major": 0,
+					"minor": 3,
+					"x": 110,
+					"y": 212,
+					"z": 0
+				},
+				{
+					"major": 0,
+					"minor": 4,
+					"x": 110,
+					"y": 265,
+					"z": 0
+				},
+				{
+					"major": 0,
+					"minor": 5,
+					"x": 110,
+					"y": 318,
+					"z": 0
+				},
+				{
+					"major": 0,
+					"minor": 6,
+					"x": 110,
+					"y": 371,
+					"z": 0
+				}
+			]
+		},
+		{
+			"identifier": "A-Block-2nd",
+			"major": 1,
+			"minor": null,
+			"beacons": [
+				{
+					"major": 1,
+					"minor": 0,
+					"x": 0,
+					"y": 2.5,
+					"z": 6
+				},
+				{
+					"major": 1,
+					"minor": 1,
+					"x": 3,
+					"y": 0,
+					"z": 6
+				},
+				{
+					"major": 1,
+					"minor": 2,
+					"x": 5,
+					"y": 1.5,
+					"z": 6
+				},
+				{
+					"major": 1,
+					"minor": 3,
+					"x": 10,
+					"y": 1.5,
+					"z": 6
+				},
+				{
+					"major": 1,
+					"minor": 4,
+					"x": 15,
+					"y": 1.5,
+					"z": 6
+				},
+				{
+					"major": 1,
+					"minor": 5,
+					"x": 20,
+					"y": 1.5,
+					"z": 6
+				},
+				{
+					"major": 1,
+					"minor": 6,
+					"x": 25,
+					"y": 1.5,
+					"z": 6
+				}
+			]
+		},
+		{
+			"identifier": "stairs/elevators",
+			"major": 100,
+			"minor": null,
+			"beacons": [
+				{
+					"major": 100,
+					"minor": 0,
+					"x": 1,
+					"y": 4,
+					"z": 4
+				}
+			]
+		}
+	],
+	"map": {
+		"length": 18,
+		"regions": [
+			{
+				"identifier": "A-Block-1st",
+				"major": 0,
+				"minor": null,
+				"nodes": [
+					{
+						"major": 0,
+						"minor": 0,
+						"tx": 84,
+						"ty": 280,
+						"x": 110,
+						"y": 280,
+						"tags": [
+							"Entrance/Exit"
+						],
+						
+						"connections": [
+							{
+								"major": 0,
+								"minor": 1
+							},
+							{
+								"major": 0,
+								"minor": 17
+							}
+
+						]
+					},
+					{
+						"major": 0,
+						"minor": 1,
+						"tx": 140,
+						"ty": 250,
+						"x": 110,
+						"y": 250,
+						"tags": [
+							"Transport office"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 0
+							},
+							{
+								"major": 0,
+								"minor": 2
+							},
+							{
+								"major": 0,
+								"minor": 17
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 2,
+						"tx": 140,
+						"ty": 223,
+						"x": 110,
+						"y": 223,
+						"tags": [
+							"A-116"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 1
+							},
+							{
+								"major": 0,
+								"minor": 2
+							},
+							{
+								"major": 0,
+								"minor": 16
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 3,
+						"tx": 140,
+						"ty": 210,
+						"x": 110,
+						"y": 210,
+						"tags": [
+							"A-115"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 2
+							},
+							{
+								"major": 0,
+								"minor": 4
+							},
+							{
+								"major": 0,
+								"minor": 16
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 4,
+						"tx": 140,
+						"ty": 190,
+						"x": 110,
+						"y": 190,
+						"tags": [
+							"A-114"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 3
+							},
+							{
+								"major": 0,
+								"minor": 5
+							},
+							{
+								"major": 0,
+								"minor": 16
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 5,
+						"tx": 140,
+						"ty": 160,
+						"x": 110,
+						"y": 160,
+						"tags": [
+							"A-113"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 4
+							},
+							{
+								"major": 0,
+								"minor": 6
+							},
+							{
+								"major": 0,
+								"minor": 15
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 6,
+						"tx": 140,
+						"ty": 127,
+						"x": 110,
+						"y": 127,
+						"tags": [
+							"A-112"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 5
+							},
+							{
+								"major": 0,
+								"minor": 7
+							},
+							{
+								"major": 0,
+								"minor": 14
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 7,
+						"tx": 140,
+						"ty": 108,
+						"x": 110,
+						"y": 108,
+						"tags": [
+							"A-111"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 6
+							},
+							{
+								"major": 0,
+								"minor": 8
+							},
+							{
+								"major": 0,
+								"minor": 14
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 8,
+						"tx": 140,
+						"ty": 100,
+						"x": 110,
+						"y": 100,
+						"tags": [
+							"A-110"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 7
+							},
+							{
+								"major": 0,
+								"minor": 9
+							},
+							{
+								"major": 0,
+								"minor": 14
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 9,
+						"tx": 140,
+						"ty": 77,
+						"x": 110,
+						"y": 77,
+						"tags": [
+							"A-109"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 8
+							},
+							{
+								"major": 0,
+								"minor": 10
+							},
+							{
+								"major": 0,
+								"minor": 13
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 10,
+						"tx": 140,
+						"ty": 47,
+						"x": 110,
+						"y": 47,
+						"tags": [
+							"A-108"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 9
+							},
+							{
+								"major": 0,
+								"minor": 11
+							},
+							{
+								"major": 0,
+								"minor": 13
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 11,
+						"tx": 140,
+						"ty": 27,
+						"x": 110,
+						"y": 27,
+						"tags": [
+							"A-107"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 10
+							},
+							{
+								"major": 0,
+								"minor": 12
+							},
+							{
+								"major": 0,
+								"minor": 13
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 12,
+						"tx": 100,
+						"ty": 15,
+						"x": 110,
+						"y": 15,
+						"tags": [
+							"A-106"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 11
+							},
+							{
+								"major": 0,
+								"minor": 13
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 13,
+						"tx": 60,
+						"ty": 50,
+						"x": 110,
+						"y": 50,
+						"tags": [
+							"A-105"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 9
+							},
+							{
+								"major": 0,
+								"minor": 10
+							},
+							{
+								"major": 0,
+								"minor": 11
+							},
+							{
+								"major": 0,
+								"minor": 12
+							},
+							{
+								"major": 0,
+								"minor": 14
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 14,
+						"tx": 60,
+						"ty": 115,
+						"x": 110,
+						"y": 115,
+						"tags": [
+							"A-103"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 6
+							},
+							{
+								"major": 0,
+								"minor": 7
+							},
+							{
+								"major": 0,
+								"minor": 8
+							},
+							{
+								"major": 0,
+								"minor": 13
+							},
+							{
+								"major": 0,
+								"minor": 15
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 15,
+						"tx": 60,
+						"ty": 160,
+						"x": 110,
+						"y": 160,
+						"tags": [
+							"A-126"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 5
+							},
+							{
+								"major": 0,
+								"minor": 14
+							},
+							{
+								"major": 0,
+								"minor": 16
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 16,
+						"tx": 60,
+						"ty": 200,
+						"x": 110,
+						"y": 200,
+						"tags": [
+							"A-101"
+						],
+						"connections": [
+							{
+								"major": 0,
+								"minor": 15
+							},
+							{
+								"major": 0,
+								"minor": 2
+							},
+							{
+								"major": 0,
+								"minor": 3
+							},
+							{
+								"major": 0,
+								"minor": 4
+							},
+							{
+								"major": 0,
+								"minor": 17	
+							}
+						]
+					},
+					{
+						"major": 0,
+						"minor": 17,
+						"tx": 40,
+						"ty": 245,
+						"x": 110,
+						"y": 245,
+						"tags": [
+							"Stairs-1"
+						],
+						"stairs": true,
+						"connections": [
+							{
+								"major": 0,
+								"minor": 0
+							},
+							{
+								"major": 0,
+								"minor": 16
+							},
+							{
+								"major": 0,
+								"minor": 1
+							}
+						]
+					}
+
+				]
+			},
+			{
+				"identifier": "A-Block-2nd",
+				"major": 1,
+				"minor": null,
+				"nodes": [
+					{
+						"major": 1,
+						"minor": 0,
+						"tx": 50,
+						"ty": 255,
+						"x": 110,
+						"y": 255,
+						"tags": [
+							"Stairs-2"
+						],
+						"stairs": true,
+						"connections": [
+							{
+								"major": 1,
+								"minor": 1
+							},
+							{
+								"major": 1,
+								"minor": 16
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 1,
+						"tx": 158,
+						"ty": 255,
+						"x": 110,
+						"y": 255,
+						"tags": [
+							"A-216"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 0
+							},
+							{
+								"major": 1,
+								"minor": 2
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 2,
+						"tx": 140,
+						"ty": 223,
+						"x": 110,
+						"y": 223,
+						"tags": [
+							"A-215"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 1
+							},
+							{
+								"major": 1,
+								"minor": 3
+							},
+							{
+								"major": 1,
+								"minor": 16
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 3,
+						"tx": 140,
+						"ty": 210,
+						"x": 110,
+						"y": 210,
+						"tags": [
+							"A-214"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 2
+							},
+							{
+								"major": 1,
+								"minor": 4
+							},
+							{
+								"major": 1,
+								"minor": 16
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 4,
+						"tx": 140,
+						"ty": 190,
+						"x": 110,
+						"y": 190,
+						"tags": [
+							"A-213"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 3
+							},
+							{
+								"major": 1,
+								"minor": 5
+							},
+							{
+								"major": 1,
+								"minor": 16
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 5,
+						"tx": 140,
+						"ty": 160,
+						"x": 110,
+						"y": 160,
+						"tags": [
+							"A-212"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 4
+							},
+							{
+								"major": 1,
+								"minor": 6
+							},
+							{
+								"major": 1,
+								"minor": 15
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 6,
+						"tx": 140,
+						"ty": 127,
+						"x": 110,
+						"y": 127,
+						"tags": [
+							"A-211"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 5
+							},
+							{
+								"major": 1,
+								"minor": 7
+							},
+							{
+								"major": 1,
+								"minor": 14
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 7,
+						"tx": 140,
+						"ty": 108,
+						"x": 110,
+						"y": 108,
+						"tags": [
+							"A-210"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 6
+							},
+							{
+								"major": 1,
+								"minor": 8
+							},
+							{
+								"major": 1,
+								"minor": 14
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 8,
+						"tx": 140,
+						"ty": 100,
+						"x": 110,
+						"y": 100,
+						"tags": [
+							"A-209"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 7
+							},
+							{
+								"major": 1,
+								"minor": 9
+							},
+							{
+								"major": 1,
+								"minor": 14
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 9,
+						"tx": 140,
+						"ty": 77,
+						"x": 110,
+						"y": 77,
+						"tags": [
+							"A-208"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 8
+							},
+							{
+								"major": 1,
+								"minor": 10
+							},
+							{
+								"major": 1,
+								"minor": 13
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 10,
+						"tx": 140,
+						"ty": 47,
+						"x": 110,
+						"y": 47,
+						"tags": [
+							"A-207"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 9
+							},
+							{
+								"major": 1,
+								"minor": 11
+							},
+							{
+								"major": 1,
+								"minor": 13
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 11,
+						"tx": 140,
+						"ty": 27,
+						"x": 110,
+						"y": 27,
+						"tags": [
+							"A-206"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 10
+							},
+							{
+								"major": 1,
+								"minor": 12
+							},
+							{
+								"major": 1,
+								"minor": 13
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 12,
+						"tx": 100,
+						"ty": 15,
+						"x": 110,
+						"y": 15,
+						"tags": [
+							"A-205"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 11
+							},
+							{
+								"major": 1,
+								"minor": 13
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 13,
+						"tx": 60,
+						"ty": 50,
+						"x": 110,
+						"y": 50,
+						"tags": [
+							"A-204"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 9
+							},
+							{
+								"major": 1,
+								"minor": 10
+							},
+							{
+								"major": 1,
+								"minor": 11
+							},
+							{
+								"major": 1,
+								"minor": 12
+							},
+							{
+								"major": 1,
+								"minor": 14
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 14,
+						"tx": 60,
+						"ty": 115,
+						"x": 110,
+						"y": 115,
+						"tags": [
+							"A-203"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 6
+							},
+							{
+								"major": 1,
+								"minor": 7
+							},
+							{
+								"major": 1,
+								"minor": 8
+							},
+							{
+								"major": 1,
+								"minor": 13
+							},
+							{
+								"major": 1,
+								"minor": 15
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 15,
+						"tx": 60,
+						"ty": 160,
+						"x": 110,
+						"y": 160,
+						"tags": [
+							"A-202"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 5
+							},
+							{
+								"major": 1,
+								"minor": 14
+							},
+							{
+								"major": 1,
+								"minor": 16
+							}
+						]
+					},
+					{
+						"major": 1,
+						"minor": 16,
+						"tx": 60,
+						"ty": 207,
+						"x": 110,
+						"y": 207,
+						"tags": [
+							"A-201"
+						],
+						"connections": [
+							{
+								"major": 1,
+								"minor": 15
+							},
+							{
+								"major": 1,
+								"minor": 2
+							},
+							{
+								"major": 1,
+								"minor": 3
+							},
+							{
+								"major": 1,
+								"minor": 4
+							},
+							{
+								"major": 1,
+								"minor": 0
+							}
+						]
+					}				
+				]
+			}
+		],
+		
+		"stairsElevators": [
+			{
+				"node": {
+					"major": 0,
+					"minor": 17
+				},
+				"connections": {
+					"major": 1,
+					"minor": 0
+				}
+			},
+			{
+				"node": {
+					"major": 1,
+					"minor": 0
+				},
+				"connections": {
+					"major": 0,
+					"minor": 17
+				}
+			}
+		]
+	}
+}
+
+
